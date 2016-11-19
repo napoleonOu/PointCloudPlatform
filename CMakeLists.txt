@@ -11,7 +11,7 @@ set(CMAKE_AUTOMOC ON)
 find_package(Qt5Widgets)
 
 # Tell CMake to create the helloworld executable
-add_executable(helloworld  main.cpp)
+add_executable(PointCloudPlatform main.cpp Dialog.h)
 
 # Use the Widgets module from Qt 5.
 target_link_libraries(PointCloudPlatform Qt5::Widgets)
